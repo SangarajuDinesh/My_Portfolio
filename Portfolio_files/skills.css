@@ -1,0 +1,45 @@
+.skill-set{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+.Verified-Mark{
+    height: 15px;
+    display: inline-block;
+    margin-right: 7px;
+}
+.front-end,.Back-end,.Others{
+    border: 2px solid rgb(132, 121, 121);
+    border-radius: 20px;
+}
+.front-end{
+    margin-left: 80px;
+}
+.Others{
+    margin-right: 80px;
+}
+.Back-end{
+    padding-left: 20px;
+}
+.skill{
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 5px;
+}
+h3{
+    margin: 15px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.mark-skill{
+    padding-left: 100px;
+}
+.skill-desc{
+    margin: 5px 0;
+    padding-left: 131px;
+    color: grey;
+    font-weight: bold;
+}
+.sk{
+    margin-bottom: 20px;
+}

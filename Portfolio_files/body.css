@@ -1,0 +1,210 @@
+.logo{
+    height: 80px;
+    width: 120px;
+    transition: hover 0.3s;
+}
+.logo:hover{
+    opacity: 0.7;
+}
+.flexy{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 300px;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color:#ffffff ;
+}
+.left-section{
+    margin-left: 100px;
+}
+body{
+    margin-top: 80px;
+}
+.line{
+    border-top:1px solid rgb(0, 0, 0);
+}
+
+.middle-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+.about{
+    height: 40px;
+    border-width: 0;
+    color: rgb(0, 0, 0);
+    background-color:#ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: hover 0.2s;
+}
+.Social{
+    height: 40px;
+    border-width: 0;
+    color: rgb(0, 0, 0);
+    background-color:#ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: hover 0.2s;
+}
+.Social-Media{
+    margin-left: -30px;
+    width: 140px;
+    height: 40px;
+    border-width: 0;
+    color: rgb(0, 0, 0);
+    background-color:#ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: hover 0.2s;
+}
+.profile{
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    transition: hover 0.2s;
+}
+.profile:hover{
+    opacity: 0.85;
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    margin-left: 70px;
+    height: 400px;
+    column-gap: 40px;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    border-radius: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.text-1{
+    margin-left: 35px;
+    margin-right: 65px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.text{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: large;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    height: 320px;
+    width: 320px;
+    border-radius: 100%;
+    background-color: rgb(179, 203, 203);
+}
+.profile-photo{
+    margin-left: 150px;
+}
+.Bio{
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: 20px 50px 30px 50px 50px;
+    justify-content: space-between;
+    row-gap: 2px;
+}
+.hello{
+    margin-top: 0;
+    color: black;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    text-align: center;
+}
+.last-name{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.desire{
+    margin-top: 0;
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    color: rgb(92, 92, 88);
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 120px 120px;
+    justify-content: center;
+    column-gap: 7px;
+    margin-top: 8px;
+}
+a{
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+.button2{
+    height: 37px;
+    width: 110px;
+    color: black;
+    border-radius: 35px;
+    border: 1px solid black;
+    background-color: rgb(241, 235, 235);
+    border-width: thin;
+    font-weight: bold;
+    border-color: rgb(16, 5, 58);
+    transition: hover 0.2s;
+    cursor: pointer;
+    padding: 8px;
+}
+.button2:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.social-profile{
+    display: grid;
+    grid-template-columns: 40px 40px;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: top;
+}
+.images{
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: hover 0.2s;
+}
+.images:hover{
+    opacity: 0.8;
+}
+.lorem{
+    margin-right: 100px;
+}

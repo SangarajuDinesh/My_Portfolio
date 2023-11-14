@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.detailscontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detailspage{
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 20px;
+    background-color: rgb(194, 152, 233);
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+form input{
+    padding: 10px;
+    height: 35px;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(249, 236, 212);
+}
+.message{
+    height: 130px;
+    padding: 10px;
+}
+.submit{
+    width: 100px;
+    align-items: center;
+    cursor: pointer;
+}

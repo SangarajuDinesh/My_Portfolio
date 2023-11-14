@@ -1,0 +1,57 @@
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.project1{
+    border: 1.5px solid rgb(80, 76, 76);
+    border-radius: 20px;
+    text-align: center;
+}
+.project-logo{
+    height: 220px;
+    width: 280px;
+    border-radius: 30px;
+    padding: 15px;
+}
+h2{
+    margin-top: 20px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    color: chocolate;
+}
+.project_button{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.git{
+    border: 1px solid black;
+    border-width: thin;
+    border-radius: 50px;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    background-color: rgb(237, 230, 230);
+}
+.git:hover{
+    background-color: black;
+    color: white;
+}
+.demo{
+    border: 1px solid black;
+    border-width: thin;
+    border-radius: 50px;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    background-color: rgb(237, 230, 230);
+}
+.demo:hover{
+    background-color: black;
+    color: white;
+}
